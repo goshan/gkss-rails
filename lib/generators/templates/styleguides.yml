@@ -1,0 +1,6 @@
+title: "My Site"
+root: "app/assets/stylesheets"
+include_js: "application"
+sections:
+  1: Content
+  2: Typography
