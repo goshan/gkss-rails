@@ -16,10 +16,6 @@ class StyleguidesController < ApplicationController
     render template: "styleguides/#{@section}", layout: 'styleguide_page'
   end
 
-  def index
-    redirect_to gkss.root_url + "1"
-  end
-
   def all
     @sections = styleguide_sections
     @single_page = true
@@ -51,6 +47,6 @@ private
   end
 
   def styleguide_include_js
-    styleguide_options['include_js']
+    styleguide_options['include_js'] || 'application'
   end
 end
