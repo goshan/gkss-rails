@@ -7,6 +7,7 @@ class StyleguidesController < ApplicationController
   helper_method :styleguide_sections
   helper_method :styleguide_root
   helper_method :styleguide_include_js
+  helper_method :styleguide_include_css
 
   before_filter :set_styleguide, :only => [ :show, :all ]
 
