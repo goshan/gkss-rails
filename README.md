@@ -25,6 +25,12 @@ Then, install the needed files into your project:
 $ bundle exec rails g gkss:install
 ```
 
+Add assets path into `config/initializers/assets.rb`
+
+```ruby
+Rails.application.config.assets.precompile += %w( jquery-1.8.0.min.js prettify.js prettify.css styleguide.css )
+```
+
 Now move on to the next section.
 
 ### Customization
