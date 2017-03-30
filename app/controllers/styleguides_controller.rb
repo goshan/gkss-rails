@@ -49,4 +49,8 @@ private
   def styleguide_include_js
     styleguide_options['include_js'] || 'application'
   end
+
+  def styleguide_include_css
+    styleguide_options['include_css'] || 'application'
+  end
 end

@@ -41,7 +41,7 @@ This gives you the following things that you should customize:
 Config your kss with title, root, sections  
 `title` means Application's title
 `root` means which css file should be searched, default is `app/assets/stylesheets`
-`include_js` means which manifest js file shoud be included in styleguide page,
+`include_js` and `include_css` means which manifest js and css file shoud be included in styleguide page,
 defualt is `application`
 `section` is sub pages which show your guides
 
