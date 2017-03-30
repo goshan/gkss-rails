@@ -91,10 +91,10 @@ section you want to document, and `code` describes the CSS selector of it.
 
 Thanks!
 ----------------
-[nkss-rails](http://nadarei.co/nkss-rails/)
-[nkss-rails:git](https://github.com/nadarei/nkss-rails)
-[kss-rails](https://github.com/dewski/kss-rails)
-[kss](https://github.com/kneath/kss)
++ [nkss-rails](http://nadarei.co/nkss-rails/)
++ [nkss-rails:git](https://github.com/nadarei/nkss-rails)
++ [kss-rails](https://github.com/dewski/kss-rails)
++ [kss](https://github.com/kneath/kss)
 
 
 License
